@@ -1,0 +1,17 @@
+spring:
+  ai:
+    bedrock:
+      converse:
+        enabled: true
+        model-id: "amazon.titan-text-express-v1"
+        aws-region: "us-east-1"
+  cloud:
+    aws:
+      credentials:
+        access-key: "YOUR_ACCESS_KEY"
+        secret-key: "YOUR_SECRET_KEY"
+      region:
+        static: us-east-1
+
+server:
+  port: 8080
